@@ -6,9 +6,13 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Khánh Duy & Thu Hường</title>
     <link rel="stylesheet" href="css/reset.css">
-    <link rel="stylesheet" href="css/style.css">
     
-    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;500;600;700&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+     <!--Đường Dẫn CDN CSS-->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/lightgallery@1.8.3/dist/css/lightgallery.min.css">
+  <link rel="stylesheet" href="css/style.css">
+  <!--Đường Dẫn CDN Javascript-->
+
+   
 </head>
 <body>
     <div class="wrap">
@@ -87,7 +91,26 @@
                         <i class="fa fa-plus"></i>
                       </a>
                     <div class="content">
-                        
+
+ <div class="container">
+   <div id="lightgallery">
+     <a
+       href="images/DCZ_1813.JPG">
+       <img class="img-thumbnail"
+         src="images/DCZ_1813.JPG">
+     </a>
+     <a
+       href="images/DCZ_1834.JPG">
+       <img class="img-thumbnail"
+         src="images/DCZ_1834.JPG">
+     </a>
+     <a
+       href="images/DCZ_1884.JPG">
+       <img class="img-thumbnail"
+         src="images/DCZ_1884.JPG">
+     </a>
+   </div>
+ </div>
                     </div>
                 </div>
                 <div class="set">
@@ -111,6 +134,13 @@
 
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
     <script src="https://kit.fontawesome.com/a65e1f7106.js" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+   <script src="https://cdn.jsdelivr.net/npm/lightgallery@1.8.3/dist/js/lightgallery-all.min.js"></script>
 	<script src="js/main.js"></script>
+    <script>
+       $(document).ready(function() {
+   $("#lightgallery").lightGallery();
+ });
+    </script>
 </body>
 </html> 
