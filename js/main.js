@@ -28,6 +28,10 @@ $(document).ready(function(){
         }
       });
 	
-	
+      $(window).on('load', function(event) {
+        $('body').removeClass('preloading');
+           // $('.load').delay(1000).fadeOut('fast');
+        $('.loader').delay(2000).fadeOut('fast');
+     });
 	
 });
