@@ -1,7 +1,7 @@
 
 $(document).ready(function(){
 
-
+    $("#lightgallery").lightGallery();
     $(".set > a").on("click", function() {
         if ($(this).hasClass("active")) {
           $(this).removeClass("active");
