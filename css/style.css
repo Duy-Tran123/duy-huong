@@ -102,13 +102,14 @@ body{
         color: white;
         text-align: center;
         font-family: 'Dancing Script', cursive;
+
       }
       .content p{
         line-height: 30px;
         font-size: 19px;
       }
       .img-thumbnail{
-        height: 60px;
+        height: auto;
         object-fit: cover;
         box-shadow: 0 1px 1px rgba(0,0,0,0.12), 
                     0 2px 2px rgba(0,0,0,0.12),
@@ -126,6 +127,12 @@ body{
       div#lightgallery {
         display: grid;
         grid-template-columns: 1fr 1fr 1fr;
+    }
+    div#lightgallery a{
+        margin: 5px;
+    }
+    #lg-counter-all,#lg-counter-current{
+        display: inline-block;
     }
     
 }
